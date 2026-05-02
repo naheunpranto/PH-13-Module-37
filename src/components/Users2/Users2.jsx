@@ -1,4 +1,5 @@
-import React, { use } from 'react';
+import { use } from "react";
+
 
 const Users2 = ({usersPromise}) => {
     const users = use(usersPromise);
