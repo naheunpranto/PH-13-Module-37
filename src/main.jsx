@@ -68,6 +68,10 @@ const router = createBrowserRouter([
   {
     path: "app2",
     element: <App/>
+  },
+  {
+    path: "*",
+    element: <h3>Not found: 404 status</h3>
   }
 ])
 
